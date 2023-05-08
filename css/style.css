@@ -2,7 +2,35 @@
     --mainColor--:#748182;
     --mainBackColor:#333;
     --mainFont--:'Montserrat', sans-serif;
-}#home{
+}.settings{
+    width: 25%;
+    position: fixed;
+    top: 40%;
+    left: 0;
+    
+    height: 200px;
+    z-index: 999;
+    display: flex;
+    align-items: flex-start;
+}.setting-inner{
+    background-color: #333;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}.setting-icon{
+    width: 20%;
+    cursor: pointer;
+    padding: 20px;
+    background-color:#333
+}.box{
+    display: flex;
+    width: 40px;
+    height: 50px;
+    cursor: pointer;
+}
+#home{
     background-image: url(../images/bg.jpg);
     width: 100%;
     height: 100vh;
